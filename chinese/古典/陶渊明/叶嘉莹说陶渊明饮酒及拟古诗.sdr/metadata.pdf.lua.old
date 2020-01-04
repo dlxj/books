@@ -1,12 +1,12 @@
 -- we can read Lua syntax here!
 return {
-    ["kopt_word_spacing"] = 0.375,
-    ["kopt_contrast"] = 0.33333333333333,
+    ["kopt_word_spacing"] = 0.05,
+    ["kopt_contrast"] = 0.11111111111111,
     ["kopt_text_wrap"] = 1,
     ["render_mode"] = 0,
     ["highlight_drawer"] = "lighten",
     ["kopt_quality"] = 0.5,
-    ["gamma"] = 3,
+    ["gamma"] = 9.0000000000001,
     ["kopt_page_margin"] = 0.05,
     ["screen_mode"] = "portrait",
     ["kopt_font_fine_tune"] = -0.05,
@@ -19,8 +19,8 @@ return {
         ["authors"] = "",
         ["total_time_in_sec"] = 0,
         ["notes"] = 0,
-        ["highlights"] = 0,
         ["title"] = "叶嘉莹说陶渊明饮酒及拟古诗",
+        ["highlights"] = 0,
         ["pages"] = 350,
         ["series"] = "",
         ["language"] = ""
@@ -40,16 +40,16 @@ return {
         ["author"] = ""
     },
     ["kopt_auto_straighten"] = 0,
-    ["config_panel_index"] = 6,
+    ["config_panel_index"] = 4,
     ["kopt_font_size"] = 1.6,
     ["kopt_page_scroll"] = 0,
     ["kopt_forced_ocr"] = 0,
     ["bookmarks_sorted"] = true,
     ["flipping_scroll_mode"] = false,
     ["highlight"] = {},
-    ["zoom_mode"] = "page",
-    ["kopt_screen_mode"] = "portrait",
+    ["percent_finished"] = 0.25714285714286,
     ["flipping_zoom_mode"] = "page",
+    ["kopt_writing_direction"] = 0,
     ["readermenu_tab_index"] = 7,
     ["kopt_doc_language"] = "chi_sim",
     ["page_positions"] = {
@@ -134,7 +134,15 @@ return {
         [79] = 0,
         [80] = 0,
         [81] = 0,
-        [82] = 0
+        [82] = 0,
+        [83] = 0,
+        [84] = 0,
+        [85] = 0,
+        [86] = 0,
+        [87] = 0,
+        [88] = 0,
+        [89] = 0,
+        [90] = 0
     },
     ["partial_md5_checksum"] = "4da33870ade1b210bd6419beb1cc74e5",
     ["kopt_page_opt"] = 0,
@@ -142,17 +150,16 @@ return {
     ["bookmarks"] = {},
     ["highlights_imported"] = true,
     ["kopt_trim_page"] = 3,
-    ["last_page"] = 47,
-    ["kopt_detect_indent"] = 1,
+    ["last_page"] = 90,
+    ["disable_fuzzy_search"] = false,
     ["kopt_max_columns"] = 1,
+    ["doc_pages"] = 350,
     ["highlight_disabled"] = false,
     ["kopt_justification"] = 0,
-    ["doc_pages"] = 350,
-    ["disable_fuzzy_search"] = false,
+    ["kopt_detect_indent"] = 1,
     ["page_overlap_style"] = "dim",
     ["kopt_line_spacing"] = 1,
     ["normal_zoom_mode"] = "page",
-    ["kopt_writing_direction"] = 0,
     ["bbox"] = {
         ["odd"] = {
             ["y1"] = 606,
@@ -160,11 +167,11 @@ return {
             ["y0"] = 55,
             ["x1"] = 425
         },
-        ["even"] = {
-            ["y1"] = 613,
-            ["x0"] = 17,
-            ["y0"] = 5,
-            ["x1"] = 432
+        [73] = {
+            ["y1"] = 606,
+            ["x0"] = 53,
+            ["y0"] = 55,
+            ["x1"] = 425
         },
         [78] = {
             ["y1"] = 613,
@@ -178,14 +185,15 @@ return {
             ["y0"] = 55,
             ["x1"] = 425
         },
-        [73] = {
-            ["y1"] = 606,
-            ["x0"] = 53,
-            ["y0"] = 55,
-            ["x1"] = 425
+        ["even"] = {
+            ["y1"] = 613,
+            ["x0"] = 17,
+            ["y0"] = 5,
+            ["x1"] = 432
         }
     },
-    ["percent_finished"] = 0.13428571428571,
+    ["zoom_mode"] = "page",
+    ["kopt_screen_mode"] = "portrait",
     ["kopt_hw_dithering"] = 0,
     ["kopt_full_screen"] = 1
 }
