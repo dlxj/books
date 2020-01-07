@@ -142,7 +142,8 @@ return {
         [87] = 0,
         [88] = 0,
         [89] = 0,
-        [90] = 0
+        [90] = 0,
+        [91] = 0
     },
     ["partial_md5_checksum"] = "4da33870ade1b210bd6419beb1cc74e5",
     ["kopt_page_opt"] = 0,

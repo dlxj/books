@@ -19,8 +19,8 @@ return {
         ["authors"] = "",
         ["total_time_in_sec"] = 0,
         ["notes"] = 0,
-        ["title"] = "叶嘉莹说陶渊明饮酒及拟古诗",
         ["highlights"] = 0,
+        ["title"] = "叶嘉莹说陶渊明饮酒及拟古诗",
         ["pages"] = 350,
         ["series"] = "",
         ["language"] = ""
@@ -44,14 +44,66 @@ return {
     ["kopt_font_size"] = 1.6,
     ["kopt_page_scroll"] = 0,
     ["kopt_forced_ocr"] = 0,
+    ["kopt_full_screen"] = 1,
+    ["kopt_writing_direction"] = 0,
+    ["flipping_zoom_mode"] = "page",
+    ["kopt_screen_mode"] = "portrait",
+    ["zoom_mode"] = "pageheight",
+    ["bbox"] = {
+        ["odd"] = {
+            ["y1"] = 606,
+            ["x0"] = 53,
+            ["y0"] = 55,
+            ["x1"] = 425
+        },
+        ["even"] = {
+            ["y1"] = 613,
+            ["x0"] = 17,
+            ["y0"] = 5,
+            ["x1"] = 432
+        },
+        [78] = {
+            ["y1"] = 613,
+            ["x0"] = 17,
+            ["y0"] = 5,
+            ["x1"] = 432
+        },
+        [61] = {
+            ["y1"] = 583,
+            ["x0"] = 53,
+            ["y0"] = 55,
+            ["x1"] = 425
+        },
+        [73] = {
+            ["y1"] = 606,
+            ["x0"] = 53,
+            ["y0"] = 55,
+            ["x1"] = 425
+        }
+    },
+    ["readermenu_tab_index"] = 7,
+    ["kopt_doc_language"] = "chi_sim",
     ["bookmarks_sorted"] = true,
+    ["partial_md5_checksum"] = "4da33870ade1b210bd6419beb1cc74e5",
+    ["kopt_page_opt"] = 0,
+    ["rotation_mode"] = 0,
+    ["bookmarks"] = {},
+    ["highlights_imported"] = true,
+    ["kopt_trim_page"] = 3,
+    ["last_page"] = 90,
+    ["kopt_detect_indent"] = 1,
+    ["kopt_max_columns"] = 1,
+    ["kopt_justification"] = 0,
+    ["highlight_disabled"] = false,
+    ["doc_pages"] = 350,
+    ["disable_fuzzy_search"] = false,
+    ["page_overlap_style"] = "dim",
+    ["kopt_line_spacing"] = 1,
+    ["normal_zoom_mode"] = "pageheight",
     ["flipping_scroll_mode"] = false,
     ["highlight"] = {},
     ["percent_finished"] = 0.25714285714286,
-    ["flipping_zoom_mode"] = "page",
-    ["kopt_writing_direction"] = 0,
-    ["readermenu_tab_index"] = 7,
-    ["kopt_doc_language"] = "chi_sim",
+    ["kopt_hw_dithering"] = 0,
     ["page_positions"] = {
         [1] = 0,
         [2] = 0,
@@ -144,57 +196,5 @@ return {
         [89] = 0,
         [90] = 0,
         [91] = 0
-    },
-    ["partial_md5_checksum"] = "4da33870ade1b210bd6419beb1cc74e5",
-    ["kopt_page_opt"] = 0,
-    ["rotation_mode"] = 0,
-    ["bookmarks"] = {},
-    ["highlights_imported"] = true,
-    ["kopt_trim_page"] = 3,
-    ["last_page"] = 90,
-    ["disable_fuzzy_search"] = false,
-    ["kopt_max_columns"] = 1,
-    ["doc_pages"] = 350,
-    ["highlight_disabled"] = false,
-    ["kopt_justification"] = 0,
-    ["kopt_detect_indent"] = 1,
-    ["page_overlap_style"] = "dim",
-    ["kopt_line_spacing"] = 1,
-    ["normal_zoom_mode"] = "page",
-    ["bbox"] = {
-        ["odd"] = {
-            ["y1"] = 606,
-            ["x0"] = 53,
-            ["y0"] = 55,
-            ["x1"] = 425
-        },
-        [73] = {
-            ["y1"] = 606,
-            ["x0"] = 53,
-            ["y0"] = 55,
-            ["x1"] = 425
-        },
-        [78] = {
-            ["y1"] = 613,
-            ["x0"] = 17,
-            ["y0"] = 5,
-            ["x1"] = 432
-        },
-        [61] = {
-            ["y1"] = 583,
-            ["x0"] = 53,
-            ["y0"] = 55,
-            ["x1"] = 425
-        },
-        ["even"] = {
-            ["y1"] = 613,
-            ["x0"] = 17,
-            ["y0"] = 5,
-            ["x1"] = 432
-        }
-    },
-    ["zoom_mode"] = "page",
-    ["kopt_screen_mode"] = "portrait",
-    ["kopt_hw_dithering"] = 0,
-    ["kopt_full_screen"] = 1
+    }
 }
